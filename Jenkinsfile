@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/MiguelAngelRamos/controlinventario.git'
+                git branch: 'main', url: 'https://github.com/MiguelAngelRamos/control.git'
             }
         }
 
